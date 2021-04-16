@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+h1,h2 {
+  font-weight: bold;
+  font-family: Impact, sans-serif;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+img {
+  max-width: 80%;
+  display: block;
+  margin: 20px auto;
+}
+
+.img-description {
+  text-align: center;
+  font-style: italic;
+  padding: 20px 0px 40px 0px;
+}
+
+ul {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-bold {
+  font-weight: bold;
+}
