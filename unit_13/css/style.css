@@ -1,0 +1,221 @@
+* {
+	margin     : 0;
+	font-family: Arial, sans-serif;
+	font-size  : 18px;
+	outline    : none;
+	box-sizing : border-box;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.site-header img {
+	max-width: 100%;
+}
+
+.site-header h1,
+.site-header h2 {
+	color         : #222;
+	font-size     : 26px;
+	text-align    : center;
+	margin        : 30px auto;
+	text-transform: uppercase;
+}
+
+.site-header h2 {
+	font-size: 22px;
+}
+
+.site-header a {
+	color: #3b0b99;
+}
+
+.site-header h2 a {
+	text-decoration: none;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+figure {
+	padding   : 30px;
+	margin    : 20px 0;
+	text-align: center;
+}
+
+figure img {
+	max-width : 100%;
+	box-shadow: 0 0 10px #c0c0c0;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+p {
+	margin       : 20px;
+	line-height  : 150%;
+	margin-bottom: 30px;
+}
+
+.container {
+	max-width : 1000px;
+	width     : 80%;
+	margin    : 0 auto;
+	background: #f1f1f1;
+	padding   : 10px;
+}
+
+.bg-orange {
+	background: orange;
+}
+
+.bg-orangered {
+	background: orangered;
+}
+
+.bg-brown {
+	background: brown;
+}
+
+.bg-darkcyan {
+	background: darkcyan;
+}
+
+.bg-dodgerBlue {
+	background: DodgerBlue;
+}
+
+.out-1,
+.out-2,
+.out-3,
+.out-4,
+.out-5,
+.out-6,
+.out-7 {
+	margin: 30px auto;
+}
+
+
+
+
+.block {
+	width : 150px;
+	height: 150px;
+	margin: 1%;
+}
+
+.block-1 {
+	animation-name           : anim1;
+	animation-duration       : 2s;
+	animation-iteration-count: 3;
+}
+
+@keyframes anim1 {
+	to {
+		border-radius: 50%;
+	}
+}
+
+.block-2 {
+	animation-name    : anim2;
+	animation-duration: 7s;
+}
+
+@keyframes anim2 {
+	50% {
+		transform: translate3d(700px, 0px, 0px);
+	}
+}
+
+.out-3:hover>img {
+	animation-name    : anim3;
+	animation-duration: 1s;
+}
+
+@keyframes anim3 {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.out-4 {
+	margin  : 50px auto;
+	overflow: hidden;
+	position: relative;
+	width   : 8%;
+}
+
+.out-4-inner {
+	position       : relative;
+	display        : flex;
+	justify-content: center;
+	left           : 6px;
+	padding        : 10px 0px;
+}
+
+.out-4-inner span {
+	padding: 0px 10px;
+}
+
+.out-4:hover>.out-4-inner {
+	animation-name     : anim4;
+	animation-duration : 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes anim4 {
+	50% {
+		left: 68px;
+	}
+
+	100% {
+		left: -62px;
+	}
+}
+
+.out-5 {
+	overflow: hidden;
+}
+
+
+
+.out-5-inner {
+	position      : relative;
+	animation-name: anim5;
+	animation     : anim5 8s linear infinite;
+	text-align    : right;
+}
+
+
+@keyframes anim5 {
+	0% {
+		left: 260px;
+	}
+
+	12.5% {
+		left: 260px;
+	}
+
+	37.5% {
+		left: 130px;
+	}
+
+	50% {
+		left: 130px;
+	}
+
+	75% {
+		left: 0px;
+	}
+
+	87.5% {
+		left: 0px;
+	}
+
+	100% {
+		left: 260px
+	}
+}
