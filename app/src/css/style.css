@@ -81,6 +81,7 @@ article {
 	font-size     : .8rem;
 	font-family   : Aria, sans-serif;
 	text-transform: none;
+	padding-left  : 20px;
 }
 
 .job-title {
@@ -111,4 +112,37 @@ article {
 
 .lines::after {
 	margin-right: -100%;
+}
+
+.link-to-work {
+	text-decoration : none;
+	background-color: transparent;
+	color: #000;
+}
+
+.link-to-work {
+	display: inline-block;
+	line-height: 1;
+	list-style: none;
+	cursor: pointer;
+	position: relative;
+}
+.link-to-work:after {
+	display: block;
+	content: "";
+	background-color: orangered;
+	height: 3px;
+	width: 0%;
+	left: 50%;
+	position: absolute;
+	-webkit-transition: width .3s ease-in-out;
+	-moz--transition: width .3s ease-in-out;
+	transition: width .3s ease-in-out;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.link-to-work:hover:after,
+.link-to-work:focus:after {
+	width: 100%;
 }
