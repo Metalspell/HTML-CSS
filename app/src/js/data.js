@@ -17,6 +17,7 @@ const data = {
 		"LESS/Grunt & SASS/Gulp",
 		"JavaScript",
 		"jQuery",
+		"Figma",
 		"Git",
 	],
 	"education": [
