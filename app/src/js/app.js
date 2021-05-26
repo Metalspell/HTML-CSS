@@ -15,10 +15,12 @@ experience.forEach(item => {
 });
 document.querySelector('.experience-list').innerHTML = expirienceData;
 document.getElementsByClassName('years')[0].style = "display: none";
+document.getElementsByClassName('years')[1].style = "display: none";
+document.getElementsByClassName('years')[2].style = "display: none";
+document.getElementsByClassName('years')[3].style = "display: none";
 document.getElementsByClassName('link-to-work')[2].style = "display: none";
 document.getElementsByClassName('link-to-work')[3].style = "display: none";
 document.getElementsByClassName('description')[3].style = "display: none";
-document.getElementsByClassName('years')[3].style = "display: none";
 document.getElementsByClassName('position')[3].style = "display: none";
 
 /**
