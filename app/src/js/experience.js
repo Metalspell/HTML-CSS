@@ -14,7 +14,7 @@ const experience = [
 		"from": "2019",
 		"to": '2019 (One and a half months)',
 		"position": "Online course of front-end development",
-		"description": "Seeing a message on the network about the opportunity to get on the course of a well-known company, I gladly took part. The main focus was on learning the basics of Java Script.",
+		"description": "Seeing a message on the network about the opportunity to get on the course of a well-known company, I gladly took part. The main focus was on learning Java Script.",
 		"link": "https://github.com/Metalspell/FL-11"
 	},
 	{

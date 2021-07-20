@@ -26,5 +26,5 @@ const data = {
 	"achievements": [
 		"Together with a friend, we wrote a website from scratch",
 	],
-	"profile": 'Hello;) You have come to the page of a beginner, but very creative and enthusiastic, and to some extent talented web developer with a high level of determination to become a professional in this field. The principle by which I live now: "Raise the level!" The main task at this stage of life is to find a starter job for a complete immersion in the world of web development.'
+	"profile": 'Hello;) You have come to the page of very creative and enthusiastic, and to some extent talented web developer with a high level of determination to become a professional in this field. The principle by which I live now: "Raise the level!" The main task at this stage of life is to find a starter job for a complete immersion in the world of web development.'
 };
