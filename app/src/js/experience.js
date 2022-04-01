@@ -1,5 +1,13 @@
 const experience = [
 	{
+		"company": "TechMango",
+		"city": "Remoute",
+		"from": "09.2021",
+		"to": 'present',
+		"position": "Front-end developer",
+		"description": "Experience in developing web application for online poker, where I mainly used ReactJS, ReactTS for work. I have experience in creating cross-server requests and processing the received data, developing new functionality and maintaining the old one, correcting the layout and writing a new one, finding and fixing errors"
+	},
+	{
 		"company": "TiSer Dev",
 		"city": "Dnipro",
 		"from": "2019",
@@ -14,7 +22,7 @@ const experience = [
 		"from": "2019",
 		"to": '2019 (One and a half months)',
 		"position": "Online course of front-end development",
-		"description": "Seeing a message on the network about the opportunity to get on the course of a well-known company, I gladly took part. The main focus was on learning the basics of Java Script.",
+		"description": "Seeing a message on the network about the opportunity to get on the course of a well-known company, I gladly took part. The main focus was on learning Java Script.",
 		"link": "https://github.com/Metalspell/FL-11"
 	},
 	{
@@ -31,7 +39,7 @@ const experience = [
 		"city": "English (pre-intermediate), Russian, Ukrainian",
 		"from": "#",
 		"to": '#',
-		"position": "Course of front-end development",
+		"position": "#",
 		"description": "#",
 		"link": "#"
 	},
