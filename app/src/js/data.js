@@ -33,5 +33,5 @@ const data = {
 		"Together with a friend, we wrote a website from scratch",
 		"I have experience in commercial development"
 	],
-	"profile": "Hello ;) You've landed on the page of an enthusiastic and somewhat talented web developer with the determination to become a high level professional in his business. And if you're reading this, it means I'm looking for a place where I can put my knowledge to work! The principle I live by now is, 'Level up!' Because of my persistence and diligence, I am great at the tasks assigned to me and will not rest until the task is dragged to the 'done' section."
+	"profile": "Hello ;) You've landed on the page of an enthusiastic and somewhat talented web developer with the determination to become a high level professional in this business. And if you're reading this, it means I'm looking for a place where I can put my knowledge to work! The principle I live by now is, 'Level up!' Because of my persistence and diligence, I am great at the tasks assigned to me and will not rest until the task is dragged to the 'done' section."
 };
