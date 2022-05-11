@@ -1,7 +1,7 @@
 const experience = [
 	{
 		"company": "TechMango",
-		"city": "Remoute",
+		"city": "remout",
 		"from": "09.2021",
 		"to": 'present',
 		"position": "Front-end developer",

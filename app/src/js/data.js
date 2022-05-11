@@ -1,8 +1,8 @@
 const data = {
 	"first_name": "Dmitry",
 	"last_name": "Krasilnikov",
-	"job_title": "Trainee Front-end Developer",
-	"photo": "images/h7pJ5tOE4W8.jpg",
+	"job_title": "Junior Front-end Developer",
+	"photo": "images/я.jpg",
 	"phone": "0938559908",
 	"email": "krasilnikov.dmytro@gmail.com",
 	"skype": "Metalspell",
